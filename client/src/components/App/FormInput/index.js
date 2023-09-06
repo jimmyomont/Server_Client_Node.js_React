@@ -44,7 +44,7 @@ const FormInput = () => { // Définit le composant FormInput en utilisant une fo
             <form onSubmit={handleSubmitForm}> {/* Définit le formulaire et utilise 'handleSubmitForm' comme fonction de rappel lors de la soumission */}
                 <Input
                     type="text"
-                    label="test"
+                    label="Envois vers la BDD"
                     name="test"
                     value={formData.test}
                     onChange={handleInputChange}
